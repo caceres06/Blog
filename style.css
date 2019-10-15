@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Concert+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Dosis&display=swap');
+
+body{
+    background-color: #5E8AEA;
+    box-sizing:border-box;
+    font-family: 'Concert One', cursive;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+}
+h1{
+    color:black;
+    text-align:center;
+    padding: 0.5em;
+}
+ .container{
+    padding: 1em;
+ }
+ .perfil{
+    margin: 10px auto;
+    text-align:center;
+}
+.d1{
+    width: 250px;
+}
+p{
+    font-family: 'Dosis', sans-serif;
+    text-align: justify;
+    border: 0.5em;
+}
