@@ -8,12 +8,12 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <header>
-        <nav class="menu">
-            <a href="#lunes" class="lu">Lunes:"The Beginning"</a>
-            <a href="#martes" class="ma">Martes: "O-O-O"</a>
-            <a href="#miercoles" class="mi">Miercoles: "Minus Monocromo"</a>
-            <a href="#jueves" class="ju">Jueves: "Cumulonimbus"</a>
-            <a href="#viernes" class="vi">Viernes: "Commit;"</a>
+        <nav>
+            <a href="#" class="MenuDia" onClick="muestraLunes('1')">Lunes:"The Beginning"</a>
+            <a href="#" class="MenuDia" onClick="muestraMartes('2')">Martes: "O-O-O"</a>
+            <a href="#" class="MenuDia" onClick="muestraMiercoles('3')">Miercoles: "Minus Monocromo"</a>
+            <a href="#" class="MenuDia">Jueves: "Cumulonimbus"</a>
+            <a href="#" class="MenuDia">Viernes: "Commit;"</a>
         </nav>
         <h1>Una visión perversa</h1>
         <section class="perfil">
@@ -23,7 +23,7 @@
 <hr>
 <body>
     <div class="container">
-        <div class="lun" id="lunes">
+        <div id="1" class="dia">
             <h2>Lunes: "The Beginning"</h2>
             <p>
             El primer día mostraron un video en donde conocemos a Ale Rav, que nos cuenta su plan
@@ -44,7 +44,7 @@
             </p>
             <img class="d0" src="./imagenes/dia1.jpeg">
         </div>
-        <div  class="mar" id="martes" style="display: none;">
+        <div  id="2" class="dia">
             <h2>Martes: "O-O-O"</h2>
             <p>
             Una vez resuelto el primer ejercicio, este nos mostraba un link que nos redireccionaba a una felicitación de Kurt y tambien a nuevas instrucciones 
@@ -59,7 +59,7 @@
             </p>
             <img class="d1" src="./imagenes/dia2.jpg">
         </div>
-        <div class="mier" id="miercoles" style="display: none">
+        <div id="3" class="dia">
             <h2>Miercoles: "Minus Monocromo"</h2>
             <img class="d2" src="imagenes/dia3.jpeg">
             <p>
@@ -75,7 +75,7 @@
                 ese departamento para luego ser añadido mediante una trasacción a su nueva subclase.
             </p>
         </div>
-        <div class="jue" id="jueves" style="display: none">
+        <div id="4" class="dia">
             <h2>Jueves: "Cumulonimbus"</h2>
             <img class="d3" src="./imagenes/dia4.1.jpeg">
             <p>
@@ -92,7 +92,7 @@
                 con las subclases siguientes.
             </p>
         </div>
-        <div class="vie" id="viernes" style="display: none">
+        <div id="5" class="dia">
             <h2>Viernes: "Commit;"</h2>
             <img class="d4" src="imagenes/dia5.jpeg">
             <p>¡HEMOS VENCIDO! Y por fin conocemos a Kurt, que nos explica sus planes ahora que hemos vencido a Ale Rav,

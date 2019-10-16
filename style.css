@@ -17,7 +17,7 @@ body{
     font-family: 'Concert One', cursive;
 }
 
-.menu{
+nav{
     display: flex;
     justify-content: space-between;
     padding: 0.8em;
@@ -52,4 +52,8 @@ p{
     font-family: 'Dosis', sans-serif;
     text-align: justify;
     border: 0.5em;
+}
+
+.dia{
+    display: none;
 }
