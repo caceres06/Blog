@@ -1,31 +1,53 @@
 @import url('https://fonts.googleapis.com/css?family=Concert+One&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Dosis&display=swap');
+*, ::before, ::after{
+    box-sizing: inherit;
+    margin:0;
+    padding:0;
+    background-color: #7FB3D5;
+  }
+
+nav{
+    background-color:#76D7C4;
+    border-radius: 5mm;
+}
 
 body{
-    background-color: #5E8AEA;
     box-sizing:border-box;
     font-family: 'Concert One', cursive;
 }
+
 .menu{
     display: flex;
     justify-content: space-between;
-    padding: 1em;
+    padding: 0.8em;
+    font-style: italic;
+}
+a{
+    background-color:#76D7C4;
+}
+a:hover{
+color: #000000;
 }
 h1{
     color:black;
     text-align:center;
-    padding: 0.5em;
+    padding: 0.3em;
+}
+h2{
+    text-align: center;
 }
  .container{
     padding: 1em;
  }
  .perfil{
-    margin: 10px auto;
+    padding: 1em;
     text-align:center;
 }
-.d1{
-    width: 250px;
+img{
+    width: 125px;
 }
+
 p{
     font-family: 'Dosis', sans-serif;
     text-align: justify;
